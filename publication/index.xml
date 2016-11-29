@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Academic Theme</title>
-    <link>https://nirbhayjm.github.io/publication/</link>
+    <link>https://nirbhayjm.github.io/publication/index.xml</link>
     <description>Recent content in Publications on Academic Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
     <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nirbhayjm.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
