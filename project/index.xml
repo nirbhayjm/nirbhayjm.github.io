@@ -6,15 +6,42 @@
     <description>Recent content in Projects on Nirbhay Modhe</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Generative Image Modelling using DRAW</title>
-      <link>https://nirbhayjm.github.io/project/generative/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <link>https://nirbhayjm.github.io/project/generative-draw/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://nirbhayjm.github.io/project/generative/</guid>
+      <guid>https://nirbhayjm.github.io/project/generative-draw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentence Level Grammatical Error Identification</title>
+      <link>https://nirbhayjm.github.io/project/sent-grammar/</link>
+      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/project/sent-grammar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Colorization by Patch Inference</title>
+      <link>https://nirbhayjm.github.io/project/image-patch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/project/image-patch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Polynomial Method in Circuit Complexity</title>
+      <link>https://nirbhayjm.github.io/project/circuit-complexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/project/circuit-complexity/</guid>
       <description></description>
     </item>
     

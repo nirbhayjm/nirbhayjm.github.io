@@ -22,7 +22,7 @@
 
 html {
   font-family: 'Merriweather', serif;
-  font-size: 16px;
+  font-size: 12px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
@@ -192,7 +192,7 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 70px 0 70px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
