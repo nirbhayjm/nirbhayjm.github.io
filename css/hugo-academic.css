@@ -22,13 +22,13 @@
 
 html {
   font-family: 'Merriweather', serif;
-  font-size: 12px;
+  font-size: 11px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58rem) {
   html {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -192,7 +192,7 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 70px 0 70px 0;
+  padding: 60px 0 60px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -459,7 +459,7 @@ article {
 }
 
 .pub .pub-authors {
-  font-style: italic;
+  /*font-style: italic;*/
   line-height: 30px; /* Match share bar line height. */
 }
 
@@ -478,13 +478,13 @@ article {
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 80%;
   color: #3170A5;
 }
 
 .pub-list-item .pub-publication {
   color: #090;
-  font-size: 1rem;
+  font-size: 90%;
 }
 
 .pub-list-item .pub-links {
