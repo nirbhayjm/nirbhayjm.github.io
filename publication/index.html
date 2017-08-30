@@ -117,13 +117,44 @@
 </a>
 
 
+<a class="btn btn-primary btn-outline btn-xs" href="http://proceedings.mlr.press/v70/jain17a/jain17a.pdf">
+  PDF
+</a>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs"
+onclick="
+    var div = document.getElementById('geneml_bib');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+">
+  BibTeX
+</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/nirbhayjm/GenEML">
+  Code
+</a>
 
 
 
 
 
 
-
+<pre id = "geneml_bib", style="display:none">
+@inproceedings{jain2017scalable,
+title={Scalable Generative Models for Multi-label Learning with Missing Labels},
+author={Jain, Vikas and Modhe, Nirbhay and Rai, Piyush},nooktitle={International Conference on Machine Learning},
+year={2017}}
+</pre>
 
 </p>
             </li>
