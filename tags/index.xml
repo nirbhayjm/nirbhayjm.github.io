@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nirbhay Modhe</title>
+    <link>https://nirbhayjm.github.io/tags/</link>
+    <description>Recent content in Tags on Nirbhay Modhe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
+    <lastBuildDate>Sat, 02 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Circuit Complexity</title>
+      <link>https://nirbhayjm.github.io/tags/circuit-complexity/</link>
+      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/tags/circuit-complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://nirbhayjm.github.io/tags/computer-vision/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Image Models</title>
+      <link>https://nirbhayjm.github.io/tags/generative-image-models/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/tags/generative-image-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nlp</title>
+      <link>https://nirbhayjm.github.io/tags/nlp/</link>
+      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
