@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/home/publications_selected/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://nirbhayjm.github.io/home/news/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/home/projects/</loc>
+    <loc>https://nirbhayjm.github.io/home/publications_selected/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://nirbhayjm.github.io/project/visual-dialog/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nirbhayjm.github.io/publication/gen-eml/</loc>
     <lastmod>2017-02-19T00:00:00+00:00</lastmod>
   </url>
@@ -35,11 +40,6 @@
   <url>
     <loc>https://nirbhayjm.github.io/project/generative-draw/</loc>
     <lastmod>2016-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/project/sent-grammar/</loc>
-    <lastmod>2016-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,7 +65,7 @@
   
   <url>
     <loc>https://nirbhayjm.github.io/tags/computer-vision/</loc>
-    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -88,14 +88,8 @@
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/tags/nlp/</loc>
-    <lastmod>2016-11-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirbhayjm.github.io/project/</loc>
-    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,8 +100,20 @@
   </url>
   
   <url>
+    <loc>https://nirbhayjm.github.io/tags/reinforcement-learning/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirbhayjm.github.io/tags/</loc>
     <lastmod>2016-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/tags/visual-dialog/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -21,7 +21,7 @@
     <item>
       <title>Computer Vision</title>
       <link>https://nirbhayjm.github.io/tags/computer-vision/</link>
-      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://nirbhayjm.github.io/tags/computer-vision/</guid>
       <description></description>
@@ -37,11 +37,20 @@
     </item>
     
     <item>
-      <title>Nlp</title>
-      <link>https://nirbhayjm.github.io/tags/nlp/</link>
-      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      <title>Reinforcement Learning</title>
+      <link>https://nirbhayjm.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://nirbhayjm.github.io/tags/nlp/</guid>
+      <guid>https://nirbhayjm.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Dialog</title>
+      <link>https://nirbhayjm.github.io/tags/visual-dialog/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/tags/visual-dialog/</guid>
       <description></description>
     </item>
     
