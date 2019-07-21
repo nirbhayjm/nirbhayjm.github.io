@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
     <lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/generative-image-models/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://nirbhayjm.github.io/tags/generative-image-models/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Generative Image Modelling using DRAW</title>
