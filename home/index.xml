@@ -17,7 +17,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nirbhayjm.github.io/home/about/</guid>
-      <description>Biography I am a PhD student advised by Prof. Dhruv Batra in the School of Interactive Computing within the College of Computing at Georgia Tech. I graduated from IIT Kanpur in 2017 with a bachelor&amp;rsquo;s degree in Computer Science, where I worked with Prof. Piyush Rai and earlier with Prof. Raghunath Tewari. In the summer of 2016 I was a research intern with Prof. Vincent Ng at the University of Texas at Dallas.</description>
+      <description>Biography I am a PhD student advised by Prof. Dhruv Batra in the School of Interactive Computing within the College of Computing at Georgia Tech. I work on problems at the intersection of reinforcement learning (RL) and probabilistic modeling, applying the powerful inference techniques from the latter to solve challenging RL problems. I graduated from IIT Kanpur in 2017 with a bachelor&amp;rsquo;s degree in Computer Science, where I worked with Prof.</description>
     </item>
     
     <item>
@@ -26,15 +26,11 @@
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://nirbhayjm.github.io/home/news/</guid>
-      <description>[June, 2018] Our PyTorch code for VisDial-RL is now live!
- [July, 2018] I will be interning at SRI International in the Center for Vision Technologies, working on stochastic video prediction for navigation.
- [May, 2018] I served as a reviewer for ECCV 2018.
- [June, 2017] Graduated from IIT Kanpur! I will be joining Georgia Tech starting Fall 2017 as a PhD student with Dhruv Batra.
- [May, 2017] Paper on generative models for multi-label learning with Vikas Jain and Piyush Rai accepted at ICML, 2017.</description>
+      <description>[July, 2019] &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Our recent work on unsupervised sub-goal discovery with intrinsic control is available on arXiv here.   [2018 - 19] I served as a reviewer for CVPR19, ICLR19 and the TLLLEIB 2018.   [June, 2018] Our PyTorch code for VisDial-RL is now live!   [May, 2018] I will be interning at SRI International in the Center for Vision Technologies, working on stochastic video prediction for navigation.</description>
     </item>
     
     <item>
-      <title>Recent Publications</title>
+      <title>Research Articles</title>
       <link>https://nirbhayjm.github.io/home/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
@@ -49,7 +45,9 @@
       
       <guid>https://nirbhayjm.github.io/home/teaching/</guid>
       <description>Teaching Assistant
- Georgia Tech, Fall 2018, CS4803 / CS7643: Deep Learning, by Prof. Dhruv Batra  Tutor - I conducted weekly tutorial classes, designed and evaluated the exam and lab questions for the following courses:
+ Georgia Tech, Fall 2019, CS4803 / CS7643: Deep Learning, by Prof. Dhruv Batra
+ Georgia Tech, Fall 2018, CS4803 / CS7643: Deep Learning, by Prof. Dhruv Batra
+  Tutor: Held weekly tutorial classes in addition to course instructor&amp;rsquo;s lectures:
  IIT Kanpur, Fall 2016, ESC101: Fundamentals of Computer Science, by Prof. Vinay Namboodiri
  Mentored a student for an Advanced Track project.   IIT Kanpur, Spring 2017, ESC101: Fundamentals of Computer Science, by Prof.</description>
     </item>

@@ -24,11 +24,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://nirbhayjm.github.io/publication/unsup-ds-arxiv/">
 
   
 
-  <title>404 Page not found | Nirbhay Modhe</title>
+  <title>Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning | Nirbhay Modhe</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -92,26 +92,71 @@
 
 <div class="container">
 
-  <h1>Page not found</h1>
-  <p>Maybe you were looking for one of these?</p>
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="pub-title">
+      <h1 itemprop="name">Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</h1>
+      <span class="pub-authors" itemprop="author">
+                
+                <strong>Nirbhay Modhe</strong>, Prithvijit Chattopadhyay, Mohit Sharma, Abhishek Das, Devi Parikh, Dhruv Batra, Ramakrishna Vedantam
+                
+            </span>
 
-  <h2>Recent Posts</h2>
-  
+    </div>
 
-  <h2>Recent Publications</h2>
-  
-  <ul>
-    <li><a href="https://nirbhayjm.github.io/publication/unsup-ds-arxiv/">Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</a></li>
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We present a hierarchical reinforcement learning (HRL) or options framework for identifying decision states. Informally speaking, these are states considered important by the agent&rsquo;s policy e.g. , for navigation, decision states would be crossroads or doors where an agent needs to make strategic decisions. While previous work (most notably Goyal et. al., 2019) discovers decision states in a task/goal specific (or ‘supervised’) manner, we do so in a goal-independent (or ‘unsupervised’) manner, i.e. entirely without any goal or extrinsic rewards. Our approach combines two hitherto disparate ideas -  1) <em>intrinsic control</em> (Gregor et. al., 2016, Eysenbach et. al., 2018): learning a set of options that allow an agent to reliably reach a diverse set of states, and 2) information bottleneck (Tishby et. al., 2000): penalizing mutual information between the option $\Omega$ and the states $s_t$ visited in the trajectory. The former encourages an agent to reliably explore the environment; the latter allows identification of decision states as the ones with high mutual information $I(\Omega; a_t | s_t)$ despite the bottleneck. Our results demonstrate that 1) our model learns interpretable decision states in an unsupervised manner, and 2) these learned decision states transfer to goal-driven tasks in new environments, effectively guide exploration, and improve performance.</p>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">Preprint (Under Review)</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            July, 2019
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. -->
+</div>
+
+  </div>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://nirbhayjm.github.io/publication/gen-eml/"><span
+      aria-hidden="true">&larr;</span> Scalable Generative Models for Multi-label Learning with Missing Labels</a></li>
+    
+
+    
   </ul>
-  
-  <ul>
-    <li><a href="https://nirbhayjm.github.io/publication/gen-eml/">Scalable Generative Models for Multi-label Learning with Missing Labels</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="https://nirbhayjm.github.io/publication/">Publications</a></li>
-  </ul>
-  
+</nav>
+
 
 </div>
 <footer class="site-footer">
@@ -170,6 +215,11 @@
     <script>hljs.initHighlightingOnLoad();</script>
 
     
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
     
 
   </body>

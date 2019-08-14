@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Nirbhay Modhe</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
-    <lastBuildDate>Sun, 19 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nirbhayjm.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</title>
+      <link>https://nirbhayjm.github.io/publication/unsup-ds-arxiv/</link>
+      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirbhayjm.github.io/publication/unsup-ds-arxiv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Scalable Generative Models for Multi-label Learning with Missing Labels</title>
