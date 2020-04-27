@@ -1,67 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nirbhay Modhe on Nirbhay Modhe</title>
+    <title>Nirbhay Modhe</title>
     <link>https://nirbhayjm.github.io/</link>
-    <description>Recent content in Nirbhay Modhe on Nirbhay Modhe</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://nirbhayjm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nirbhay Modhe</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 17:31:13 -0400</lastBuildDate>
+    <image>
+      <url>https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Nirbhay Modhe</title>
+      <link>https://nirbhayjm.github.io/</link>
+    </image>
     
     <item>
       <title>Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</title>
-      <link>https://nirbhayjm.github.io/publication/unsup-ds-arxiv/</link>
-      <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/publication/unsup-ds-arxiv/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Towards Smarter Q-Bots in Visual Dialog</title>
-      <link>https://nirbhayjm.github.io/project/visual-dialog/</link>
-      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/project/visual-dialog/</guid>
+      <link>https://nirbhayjm.github.io/publication/ir-vic/</link>
+      <pubDate>Fri, 24 Apr 2020 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/ir-vic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scalable Generative Models for Multi-label Learning with Missing Labels</title>
       <link>https://nirbhayjm.github.io/publication/gen-eml/</link>
-      <pubDate>Sun, 19 Feb 2017 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 24 Apr 2017 17:31:13 -0400</pubDate>
       <guid>https://nirbhayjm.github.io/publication/gen-eml/</guid>
-      <description>&lt;!-- More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code. --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Generative Image Modelling using DRAW</title>
-      <link>https://nirbhayjm.github.io/project/generative-draw/</link>
-      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/project/generative-draw/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Probabilistic Polynomial Method in Circuit Complexity</title>
-      <link>https://nirbhayjm.github.io/project/circuit-complexity/</link>
-      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/project/circuit-complexity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image Colorization by Patch Inference</title>
-      <link>https://nirbhayjm.github.io/project/image-patch/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/project/image-patch/</guid>
       <description></description>
     </item>
     

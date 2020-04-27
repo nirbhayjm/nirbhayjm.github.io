@@ -1,125 +1,108 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirbhayjm.github.io/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://nirbhayjm.github.io/author/nirbhay-modhe/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/home/news/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/home/publications_selected/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/home/teaching/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/home/contact/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/publication/unsup-ds-arxiv/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/project/visual-dialog/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/publication/gen-eml/</loc>
-    <lastmod>2017-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/project/generative-draw/</loc>
-    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/project/circuit-complexity/</loc>
-    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/project/image-patch/</loc>
-    <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/tags/circuit-complexity/</loc>
-    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/tags/computer-vision/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/tags/generative-image-models/</loc>
-    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/home/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nirbhayjm.github.io/authors/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://nirbhayjm.github.io/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/project/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nirbhayjm.github.io/author/nirbhay-modhe/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://nirbhayjm.github.io/publication/</loc>
-    <lastmod>2019-07-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/tags/reinforcement-learning/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nirbhayjm.github.io/tag/reinforcement-learning/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://nirbhayjm.github.io/tags/</loc>
-    <lastmod>2016-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/tags/visual-dialog/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://nirbhayjm.github.io/publication/ir-vic/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/nirbhay-modheast/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/tag/multilabel-learning/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/publication/gen-eml/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/abhishek-dashttps/abhishekdas.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/devi-parikhhttps/www.cc.gatech.edu/~parikh/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/dhruv-batrahttps/www.cc.gatech.edu/~dbatra/index.html/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/mohit-sharmahttps/ms-sharma.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/piyush-raihttp/www.cse.iitk.ac.in/users/piyush/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/prithvijit-chattopadhyayhttps/prithv1.xyz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/ramakrishna-vedantamhttps/vrama91.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/vikas-jainasthttps/github.com/vikasjiitk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/post/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/talk/</loc>
   </url>
   
 </urlset>

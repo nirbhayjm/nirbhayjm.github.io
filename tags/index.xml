@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nirbhay Modhe</title>
+    <title>Tags | Nirbhay Modhe</title>
     <link>https://nirbhayjm.github.io/tags/</link>
-    <description>Recent content in Tags on Nirbhay Modhe</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2016 Nirbhay Modhe</copyright>
-    <lastBuildDate>Sat, 02 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://nirbhayjm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Circuit Complexity</title>
-      <link>https://nirbhayjm.github.io/tags/circuit-complexity/</link>
-      <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/tags/circuit-complexity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>https://nirbhayjm.github.io/tags/computer-vision/</link>
-      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Generative Image Models</title>
-      <link>https://nirbhayjm.github.io/tags/generative-image-models/</link>
-      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/tags/generative-image-models/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning</title>
-      <link>https://nirbhayjm.github.io/tags/reinforcement-learning/</link>
-      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visual Dialog</title>
-      <link>https://nirbhayjm.github.io/tags/visual-dialog/</link>
-      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirbhayjm.github.io/tags/visual-dialog/</guid>
-      <description></description>
-    </item>
+      <atom:link href="https://nirbhayjm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 17:31:13 -0400</lastBuildDate>
+    <image>
+      <url>https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://nirbhayjm.github.io/tags/</link>
+    </image>
     
   </channel>
 </rss>
