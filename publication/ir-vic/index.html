@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="We present a hierarchical reinforcement learning (HRL) or options framework for identifying decision states. Informally speaking, these are states considered important by the agent&#39;s policy e.g. , for navigation, decision states would be crossroads or doors where an agent needs to make strategic decisions. While previous work (most notably Goyal et. al., 2019) discovers decision states in a task/goal specific (or ‘supervised’) manner, we do so in a goal-independent (or ‘unsupervised’) manner, i.e. entirely without any goal or extrinsic rewards. Our approach combines two hitherto disparate ideas -  1) *intrinsic control* (Gregor et. al., 2016, Eysenbach et. al., 2018): learning a set of options that allow an agent to reliably reach a diverse set of states, and 2) information bottleneck (Tishby et. al., 2000): penalizing mutual information between the option $\Omega$ and the states $s_t$ visited in the trajectory. The former encourages an agent to reliably explore the environment; the latter allows identification of decision states as the ones with high mutual information $I(\Omega; a_t | s_t)$ despite the bottleneck. Our results demonstrate that 1) our model learns interpretable decision states in an unsupervised manner, and 2) these learned decision states transfer to goal-driven tasks in new environments, effectively guide exploration, and improve performance.">
+  <meta name="description" content="We propose a novel framework to identify sub-goals useful for exploration in sequential decision making tasks under partial observability. We utilize the variational intrinsic control framework (Gregor this http URL., 2016) which maximizes empowerment -- the ability to reliably reach a diverse set of states and show how to identify sub-goals as states with high necessary option information through an information theoretic regularizer. Despite being discovered without explicit goal supervision, our sub-goals provide better exploration and sample complexity on challenging grid-world navigation tasks compared to supervised counterparts in prior work.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/publication/ir-vic/">
@@ -273,8 +273,8 @@
   
   <meta property="og:site_name" content="Nirbhay Modhe">
   <meta property="og:url" content="https://nirbhayjm.github.io/publication/ir-vic/">
-  <meta property="og:title" content="Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning | Nirbhay Modhe">
-  <meta property="og:description" content="We present a hierarchical reinforcement learning (HRL) or options framework for identifying decision states. Informally speaking, these are states considered important by the agent&#39;s policy e.g. , for navigation, decision states would be crossroads or doors where an agent needs to make strategic decisions. While previous work (most notably Goyal et. al., 2019) discovers decision states in a task/goal specific (or ‘supervised’) manner, we do so in a goal-independent (or ‘unsupervised’) manner, i.e. entirely without any goal or extrinsic rewards. Our approach combines two hitherto disparate ideas -  1) *intrinsic control* (Gregor et. al., 2016, Eysenbach et. al., 2018): learning a set of options that allow an agent to reliably reach a diverse set of states, and 2) information bottleneck (Tishby et. al., 2000): penalizing mutual information between the option $\Omega$ and the states $s_t$ visited in the trajectory. The former encourages an agent to reliably explore the environment; the latter allows identification of decision states as the ones with high mutual information $I(\Omega; a_t | s_t)$ despite the bottleneck. Our results demonstrate that 1) our model learns interpretable decision states in an unsupervised manner, and 2) these learned decision states transfer to goal-driven tasks in new environments, effectively guide exploration, and improve performance."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL | Nirbhay Modhe">
+  <meta property="og:description" content="We propose a novel framework to identify sub-goals useful for exploration in sequential decision making tasks under partial observability. We utilize the variational intrinsic control framework (Gregor this http URL., 2016) which maximizes empowerment -- the ability to reliably reach a diverse set of states and show how to identify sub-goals as states with high necessary option information through an information theoretic regularizer. Despite being discovered without explicit goal supervision, our sub-goals provide better exploration and sample complexity on challenging grid-world navigation tasks compared to supervised counterparts in prior work."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -304,7 +304,7 @@
     "@type": "WebPage",
     "@id": "https://nirbhayjm.github.io/publication/ir-vic/"
   },
-  "headline": "Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning",
+  "headline": "IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL",
   
   "datePublished": "2020-04-24T17:31:13-04:00",
   "dateModified": "2020-04-24T17:31:13-04:00",
@@ -322,7 +322,7 @@
       "url": "https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "We present a hierarchical reinforcement learning (HRL) or options framework for identifying decision states. Informally speaking, these are states considered important by the agent's policy e.g. , for navigation, decision states would be crossroads or doors where an agent needs to make strategic decisions. While previous work (most notably Goyal et. al., 2019) discovers decision states in a task/goal specific (or ‘supervised’) manner, we do so in a goal-independent (or ‘unsupervised’) manner, i.e. entirely without any goal or extrinsic rewards. Our approach combines two hitherto disparate ideas -  1) *intrinsic control* (Gregor et. al., 2016, Eysenbach et. al., 2018): learning a set of options that allow an agent to reliably reach a diverse set of states, and 2) information bottleneck (Tishby et. al., 2000): penalizing mutual information between the option $\\Omega$ and the states $s_t$ visited in the trajectory. The former encourages an agent to reliably explore the environment; the latter allows identification of decision states as the ones with high mutual information $I(\\Omega; a_t | s_t)$ despite the bottleneck. Our results demonstrate that 1) our model learns interpretable decision states in an unsupervised manner, and 2) these learned decision states transfer to goal-driven tasks in new environments, effectively guide exploration, and improve performance."
+  "description": "We propose a novel framework to identify sub-goals useful for exploration in sequential decision making tasks under partial observability. We utilize the variational intrinsic control framework (Gregor this http URL., 2016) which maximizes empowerment -- the ability to reliably reach a diverse set of states and show how to identify sub-goals as states with high necessary option information through an information theoretic regularizer. Despite being discovered without explicit goal supervision, our sub-goals provide better exploration and sample complexity on challenging grid-world navigation tasks compared to supervised counterparts in prior work."
 }
 </script>
 
@@ -340,7 +340,7 @@
 
 
 
-  <title>Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning | Nirbhay Modhe</title>
+  <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL | Nirbhay Modhe</title>
 
 </head>
 
@@ -617,7 +617,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Unsupervised Discovery of Decision States for Transfer in Reinforcement Learning</h1>
+  <h1>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</h1>
 
   
 
@@ -749,7 +749,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We present a hierarchical reinforcement learning (HRL) or options framework for identifying decision states. Informally speaking, these are states considered important by the agent&rsquo;s policy e.g. , for navigation, decision states would be crossroads or doors where an agent needs to make strategic decisions. While previous work (most notably Goyal et. al., 2019) discovers decision states in a task/goal specific (or ‘supervised’) manner, we do so in a goal-independent (or ‘unsupervised’) manner, i.e. entirely without any goal or extrinsic rewards. Our approach combines two hitherto disparate ideas -  1) <em>intrinsic control</em> (Gregor et. al., 2016, Eysenbach et. al., 2018): learning a set of options that allow an agent to reliably reach a diverse set of states, and 2) information bottleneck (Tishby et. al., 2000): penalizing mutual information between the option $\Omega$ and the states $s_t$ visited in the trajectory. The former encourages an agent to reliably explore the environment; the latter allows identification of decision states as the ones with high mutual information $I(\Omega; a_t | s_t)$ despite the bottleneck. Our results demonstrate that 1) our model learns interpretable decision states in an unsupervised manner, and 2) these learned decision states transfer to goal-driven tasks in new environments, effectively guide exploration, and improve performance.</p>
+    <p class="pub-abstract">We propose a novel framework to identify sub-goals useful for exploration in sequential decision making tasks under partial observability. We utilize the variational intrinsic control framework (Gregor this http URL., 2016) which maximizes empowerment &ndash; the ability to reliably reach a diverse set of states and show how to identify sub-goals as states with high necessary option information through an information theoretic regularizer. Despite being discovered without explicit goal supervision, our sub-goals provide better exploration and sample complexity on challenging grid-world navigation tasks compared to supervised counterparts in prior work.</p>
     
 
     
@@ -785,7 +785,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;text=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;text=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -798,7 +798,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/ir-vic/&amp;t=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/ir-vic/&amp;t=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -811,7 +811,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning&amp;body=https://nirbhayjm.github.io/publication/ir-vic/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL&amp;body=https://nirbhayjm.github.io/publication/ir-vic/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -824,7 +824,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;title=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;title=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -837,7 +837,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning%20https://nirbhayjm.github.io/publication/ir-vic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL%20https://nirbhayjm.github.io/publication/ir-vic/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -850,7 +850,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;title=Unsupervised%20Discovery%20of%20Decision%20States%20for%20Transfer%20in%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/ir-vic/&amp;title=IR-VIC:%20Unsupervised%20Discovery%20of%20Sub-goals%20for%20Transfer%20in%20RL" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
