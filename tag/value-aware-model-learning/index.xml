@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>**Nirbhay Modhe** | Nirbhay Modhe</title>
-    <link>https://nirbhayjm.github.io/author/nirbhay-modhe/</link>
-      <atom:link href="https://nirbhayjm.github.io/author/nirbhay-modhe/index.xml" rel="self" type="application/rss+xml" />
-    <description>**Nirbhay Modhe**</description>
+    <title>value aware model learning | Nirbhay Modhe</title>
+    <link>https://nirbhayjm.github.io/tag/value-aware-model-learning/</link>
+      <atom:link href="https://nirbhayjm.github.io/tag/value-aware-model-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>value aware model learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 17:31:13 -0400</lastBuildDate>
     <image>
       <url>https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>**Nirbhay Modhe**</title>
-      <link>https://nirbhayjm.github.io/author/nirbhay-modhe/</link>
+      <title>value aware model learning</title>
+      <link>https://nirbhayjm.github.io/tag/value-aware-model-learning/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://nirbhayjm.github.io/publication/model-adv/</link>
       <pubDate>Sun, 24 Jan 2021 17:31:13 -0400</pubDate>
       <guid>https://nirbhayjm.github.io/publication/model-adv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</title>
-      <link>https://nirbhayjm.github.io/publication/ir-vic/</link>
-      <pubDate>Fri, 24 Apr 2020 17:31:13 -0400</pubDate>
-      <guid>https://nirbhayjm.github.io/publication/ir-vic/</guid>
       <description></description>
     </item>
     

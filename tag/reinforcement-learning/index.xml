@@ -5,12 +5,20 @@
     <link>https://nirbhayjm.github.io/tag/reinforcement-learning/</link>
       <atom:link href="https://nirbhayjm.github.io/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>reinforcement learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 17:31:13 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 17:31:13 -0400</lastBuildDate>
     <image>
       <url>https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>reinforcement learning</title>
       <link>https://nirbhayjm.github.io/tag/reinforcement-learning/</link>
     </image>
+    
+    <item>
+      <title>Model-Advantage Optimization for Model-Based Reinforcement Learning</title>
+      <link>https://nirbhayjm.github.io/publication/model-adv/</link>
+      <pubDate>Sun, 24 Jan 2021 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/model-adv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</title>

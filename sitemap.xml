@@ -13,8 +13,13 @@
   </url>
   
   <url>
-    <loc>https://nirbhayjm.github.io/publication/ir-vic/</loc>
-    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+    <loc>https://nirbhayjm.github.io/tag/model-based-rl/</loc>
+    <lastmod>2020-04-20T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/publication/model-adv/</loc>
+    <lastmod>2020-04-20T17:31:13-04:00</lastmod>
   </url>
   
   <url>
@@ -43,6 +48,21 @@
   </url>
   
   <url>
+    <loc>https://nirbhayjm.github.io/tag/value-aware-model-learning/</loc>
+    <lastmod>2020-04-20T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/tag/value-equivalence/</loc>
+    <lastmod>2020-04-20T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/publication/ir-vic/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nirbhayjm.github.io/author/nirbhay-modheast/</loc>
     <lastmod>2020-04-24T17:31:13-04:00</lastmod>
   </url>
@@ -62,11 +82,19 @@
   </url>
   
   <url>
+    <loc>https://nirbhayjm.github.io/author/ashwin-kalyanhttp/ashwinkalyan.com/</loc>
+  </url>
+  
+  <url>
     <loc>https://nirbhayjm.github.io/author/devi-parikhhttps/www.cc.gatech.edu/~parikh/</loc>
   </url>
   
   <url>
     <loc>https://nirbhayjm.github.io/author/dhruv-batrahttps/www.cc.gatech.edu/~dbatra/index.html/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nirbhayjm.github.io/author/harish-kamathhttp/hkamath.com/</loc>
   </url>
   
   <url>
