@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Model-based Reinforcement Learning (MBRL) algorithms have been traditionally designed with the goal of learning accurate dynamics of the environment. This introduces a mismatch between the objectives of model-learning and the overall learning problem of finding an optimal policy. Value-aware model learning, an alternative model-learning paradigm to maximum likelihood, proposes to inform model-learning through the value function of the learnt policy. While this paradigm is theoretically sound, it does not scale beyond toy settings. In this work, we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models. Further, we propose a general purpose algorithm that modifies the standard MBRL pipeline -- enabling learning with value aware objectives. Our proposed objective, in conjunction with this algorithm, is the first successful instantiation of value-aware MBRL on challenging continuous control environments, outperforming previous value-aware objectives and with competitive performance w.r.t. MLE-based MBRL approaches.">
+  <meta name="description" content="Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/publication/model-adv/">
@@ -273,14 +273,14 @@
   
   <meta property="og:site_name" content="Nirbhay Modhe">
   <meta property="og:url" content="https://nirbhayjm.github.io/publication/model-adv/">
-  <meta property="og:title" content="Model-Advantage Optimization for Model-Based Reinforcement Learning | Nirbhay Modhe">
-  <meta property="og:description" content="Model-based Reinforcement Learning (MBRL) algorithms have been traditionally designed with the goal of learning accurate dynamics of the environment. This introduces a mismatch between the objectives of model-learning and the overall learning problem of finding an optimal policy. Value-aware model learning, an alternative model-learning paradigm to maximum likelihood, proposes to inform model-learning through the value function of the learnt policy. While this paradigm is theoretically sound, it does not scale beyond toy settings. In this work, we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models. Further, we propose a general purpose algorithm that modifies the standard MBRL pipeline -- enabling learning with value aware objectives. Our proposed objective, in conjunction with this algorithm, is the first successful instantiation of value-aware MBRL on challenging continuous control environments, outperforming previous value-aware objectives and with competitive performance w.r.t. MLE-based MBRL approaches."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:title" content="Bridging Worlds in Reinforcement Learning with Model-Advantage | Nirbhay Modhe">
+  <meta property="og:description" content="Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-01-24T17:31:13-04:00">
+      <meta property="article:published_time" content="2020-06-25T17:31:13-04:00">
     
-    <meta property="article:modified_time" content="2020-04-20T17:31:13-04:00">
+    <meta property="article:modified_time" content="2020-06-25T17:31:13-04:00">
   
 
   
@@ -304,14 +304,14 @@
     "@type": "WebPage",
     "@id": "https://nirbhayjm.github.io/publication/model-adv/"
   },
-  "headline": "Model-Advantage Optimization for Model-Based Reinforcement Learning",
+  "headline": "Bridging Worlds in Reinforcement Learning with Model-Advantage",
   
-  "datePublished": "2021-01-24T17:31:13-04:00",
-  "dateModified": "2020-04-20T17:31:13-04:00",
+  "datePublished": "2020-06-25T17:31:13-04:00",
+  "dateModified": "2020-06-25T17:31:13-04:00",
   
   "author": {
     "@type": "Person",
-    "name": "**Nirbhay Modhe**"
+    "name": "**Nirbhay Modhe**\u0026ast;"
   },
   
   "publisher": {
@@ -322,7 +322,7 @@
       "url": "https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Model-based Reinforcement Learning (MBRL) algorithms have been traditionally designed with the goal of learning accurate dynamics of the environment. This introduces a mismatch between the objectives of model-learning and the overall learning problem of finding an optimal policy. Value-aware model learning, an alternative model-learning paradigm to maximum likelihood, proposes to inform model-learning through the value function of the learnt policy. While this paradigm is theoretically sound, it does not scale beyond toy settings. In this work, we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models. Further, we propose a general purpose algorithm that modifies the standard MBRL pipeline -- enabling learning with value aware objectives. Our proposed objective, in conjunction with this algorithm, is the first successful instantiation of value-aware MBRL on challenging continuous control environments, outperforming previous value-aware objectives and with competitive performance w.r.t. MLE-based MBRL approaches."
+  "description": "Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL."
 }
 </script>
 
@@ -340,7 +340,7 @@
 
 
 
-  <title>Model-Advantage Optimization for Model-Based Reinforcement Learning | Nirbhay Modhe</title>
+  <title>Bridging Worlds in Reinforcement Learning with Model-Advantage | Nirbhay Modhe</title>
 
 </head>
 
@@ -617,7 +617,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Model-Advantage Optimization for Model-Based Reinforcement Learning</h1>
+  <h1>Bridging Worlds in Reinforcement Learning with Model-Advantage</h1>
 
   
 
@@ -635,7 +635,7 @@
     
 
   
-  <span><strong>Nirbhay Modhe</strong></span>, <span><a href="http://hkamath.com/">Harish Kamath</a></span>, <span><a href="https://www.cc.gatech.edu/~dbatra/index.html">Dhruv Batra</a></span>, <span><a href="http://ashwinkalyan.com/">Ashwin Kalyan</a></span>
+  <span><strong>Nirbhay Modhe</strong>*</span>, <span><a href="http://hkamath.com/">Harish Kamath*</a></span>, <span><a href="https://www.cc.gatech.edu/~dbatra/index.html">Dhruv Batra</a></span>, <span><a href="http://ashwinkalyan.com/">Ashwin Kalyan</a></span>
   </div>
   
   
@@ -646,7 +646,7 @@
     
       
     
-    January 2021
+    June 2020
   </span>
   
 
@@ -696,7 +696,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2106.14080.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=XBRYX4c_xFQ" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -712,22 +712,6 @@
 
 
 
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2106.14080" target="_blank" rel="noopener">
-    
-    ArXiv
-  </a>
 
 
 
@@ -749,7 +733,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Model-based Reinforcement Learning (MBRL) algorithms have been traditionally designed with the goal of learning accurate dynamics of the environment. This introduces a mismatch between the objectives of model-learning and the overall learning problem of finding an optimal policy. Value-aware model learning, an alternative model-learning paradigm to maximum likelihood, proposes to inform model-learning through the value function of the learnt policy. While this paradigm is theoretically sound, it does not scale beyond toy settings. In this work, we propose a novel value-aware objective that is an upper bound on the absolute performance difference of a policy across two models. Further, we propose a general purpose algorithm that modifies the standard MBRL pipeline &ndash; enabling learning with value aware objectives. Our proposed objective, in conjunction with this algorithm, is the first successful instantiation of value-aware MBRL on challenging continuous control environments, outperforming previous value-aware objectives and with competitive performance w.r.t. MLE-based MBRL approaches.</p>
+    <p class="pub-abstract">Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL.</p>
     
 
     
@@ -791,7 +775,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/model-adv/&amp;text=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/model-adv/&amp;text=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -804,7 +788,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/model-adv/&amp;t=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/model-adv/&amp;t=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -817,7 +801,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning&amp;body=https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage&amp;body=https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -830,7 +814,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -843,7 +827,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning%20https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage%20https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -856,7 +840,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Model-Advantage%20Optimization%20for%20Model-Based%20Reinforcement%20Learning" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
