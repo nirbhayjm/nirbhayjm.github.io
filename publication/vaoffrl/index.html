@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Ph. D. Graduate, Georgia Tech">
+  <meta name="description" content="Offline reinforcement learning (RL) methods strike a balance between exploration and exploitation by conservative value estimation -- penalizing values of unseen states and actions. Model-free methods penalize values at all unseen actions, while model-based methods are able to further exploit unseen states via model rollouts. However, such methods are handicapped in their ability to find unseen states far away from the available offline data due to two factors -- (a) very short rollout horizons in models due to cascading model errors, and (b) model rollouts originating solely from states observed in offline data. We relax the second assumption and present a novel unseen state augmentation strategy to allow exploitation of unseen states where the learned model and value estimates generalize. Our strategy finds unseen states by value-informed perturbations of seen states followed by filtering out states with epistemic uncertainty estimates too high (high error) or too low (too similar to seen data). We observe improved performance in several offline RL tasks and find that our augmentation strategy consistently leads to overall higher average dataset Q-value estimates than the baseline.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/tags/">
+  <link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/publication/vaoffrl/">
 
   
 
@@ -251,14 +251,12 @@
   
 
   
-  <link rel="alternate" href="/tags/index.xml" type="application/rss+xml" title="Nirbhay Modhe">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://nirbhayjm.github.io/tags/">
+  <link rel="canonical" href="https://nirbhayjm.github.io/publication/vaoffrl/">
 
   
   
@@ -274,18 +272,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Nirbhay Modhe">
-  <meta property="og:url" content="https://nirbhayjm.github.io/tags/">
-  <meta property="og:title" content="Tags | Nirbhay Modhe">
-  <meta property="og:description" content="Ph. D. Graduate, Georgia Tech"><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://nirbhayjm.github.io/publication/vaoffrl/">
+  <meta property="og:title" content="Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations | Nirbhay Modhe">
+  <meta property="og:description" content="Offline reinforcement learning (RL) methods strike a balance between exploration and exploitation by conservative value estimation -- penalizing values of unseen states and actions. Model-free methods penalize values at all unseen actions, while model-based methods are able to further exploit unseen states via model rollouts. However, such methods are handicapped in their ability to find unseen states far away from the available offline data due to two factors -- (a) very short rollout horizons in models due to cascading model errors, and (b) model rollouts originating solely from states observed in offline data. We relax the second assumption and present a novel unseen state augmentation strategy to allow exploitation of unseen states where the learned model and value estimates generalize. Our strategy finds unseen states by value-informed perturbations of seen states followed by filtering out states with epistemic uncertainty estimates too high (high error) or too low (too similar to seen data). We observe improved performance in several offline RL tasks and find that our augmentation strategy consistently leads to overall higher average dataset Q-value estimates than the baseline."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-09-25T17:31:13-04:00">
+    
+      <meta property="article:published_time" content="2022-09-25T17:31:13-04:00">
+    
+    <meta property="article:modified_time" content="2022-09-25T17:31:13-04:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nirbhayjm.github.io/publication/vaoffrl/"
+  },
+  "headline": "Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations",
+  
+  "datePublished": "2022-09-25T17:31:13-04:00",
+  "dateModified": "2022-09-25T17:31:13-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "**Nirbhay Modhe**"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nirbhay Modhe",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Offline reinforcement learning (RL) methods strike a balance between exploration and exploitation by conservative value estimation -- penalizing values of unseen states and actions. Model-free methods penalize values at all unseen actions, while model-based methods are able to further exploit unseen states via model rollouts. However, such methods are handicapped in their ability to find unseen states far away from the available offline data due to two factors -- (a) very short rollout horizons in models due to cascading model errors, and (b) model rollouts originating solely from states observed in offline data. We relax the second assumption and present a novel unseen state augmentation strategy to allow exploitation of unseen states where the learned model and value estimates generalize. Our strategy finds unseen states by value-informed perturbations of seen states followed by filtering out states with epistemic uncertainty estimates too high (high error) or too low (too similar to seen data). We observe improved performance in several offline RL tasks and find that our augmentation strategy consistently leads to overall higher average dataset Q-value estimates than the baseline."
+}
+</script>
+
+  
 
   
 
@@ -293,10 +334,13 @@
   
 
 
+  
 
 
 
-  <title>Tags | Nirbhay Modhe</title>
+
+
+  <title>Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations | Nirbhay Modhe</title>
 
 </head>
 
@@ -552,114 +596,307 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Tags</h1>
+
+
+<div class="article-metadata">
 
   
+  
+  
+  
+  <div>
+    
+
+  
+  <span><strong>Nirbhay Modhe</strong></span>, <span><a href="https://scholar.google.com/citations?user=Ub3LlsgAAAAJ&amp;hl=en">Qiaozi Gao</a></span>, <span><a href="http://ashwinkalyan.com/">Ashwin Kalyan</a></span>, <span><a href="https://www.cc.gatech.edu/~dbatra/index.html">Dhruv Batra</a></span>, <span><a href="https://scholar.google.com/citations?user=ZiagaFYAAAAJ&amp;hl=en">Govind Thattai</a></span>, <span><a href="https://viterbi.usc.edu/directory/faculty/Sukhatme/Gaurav">Gaurav Sukhatme</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Offline reinforcement learning (RL) methods strike a balance between exploration and exploitation by conservative value estimation &ndash; penalizing values of unseen states and actions. Model-free methods penalize values at all unseen actions, while model-based methods are able to further exploit unseen states via model rollouts. However, such methods are handicapped in their ability to find unseen states far away from the available offline data due to two factors &ndash; (a) very short rollout horizons in models due to cascading model errors, and (b) model rollouts originating solely from states observed in offline data. We relax the second assumption and present a novel unseen state augmentation strategy to allow exploitation of unseen states where the learned model and value estimates generalize. Our strategy finds unseen states by value-informed perturbations of seen states followed by filtering out states with epistemic uncertainty estimates too high (high error) or too low (too similar to seen data). We observe improved performance in several offline RL tasks and find that our augmentation strategy consistently leads to overall higher average dataset Q-value estimates than the baseline.</p>
+    
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+<div class="article-tags">
   
+  <a class="badge badge-light" href="/tag/reinforcement-learning/">reinforcement learning</a>
+  
+  <a class="badge badge-light" href="/tag/offline-rl/">offline RL</a>
+  
+  <a class="badge badge-light" href="/tag/offline-model-based-rl/">offline model-based RL</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/vaoffrl/&amp;text=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/vaoffrl/&amp;t=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations&amp;body=https://nirbhayjm.github.io/publication/vaoffrl/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/vaoffrl/&amp;title=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations%20https://nirbhayjm.github.io/publication/vaoffrl/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/vaoffrl/&amp;title=Exploiting%20Generalization%20in%20Offline%20Reinforcement%20Learning%20via%20Unseen%20State%20Augmentations" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
 
   
   
-    
-    
-    
-    <div>
-      <h2><a href="/tag/offline-model-based-rl/" >offline model-based RL</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/offline-rl/" >offline RL</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/reinforcement-learning/" >reinforcement learning</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/model-based-rl/" >model based RL</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/value-aware-model-learning/" >value aware model learning</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/value-equivalence/" >value equivalence</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
-  
-    
-    
-    
-    <div>
-      <h2><a href="/tag/multilabel-learning/" >multilabel learning</a></h2>
-      <div class="article-style">
-        
-      </div>
-    </div>
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/mambrl/">Model-Advantage and Value-Aware Models for Model-Based Reinforcement Learning: Bridging the Gap in Theory and Practice</a></li>
+      
+      <li><a href="/publication/model-adv/">Bridging Worlds in Reinforcement Learning with Model-Advantage</a></li>
+      
+      <li><a href="/publication/ir-vic/">IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</a></li>
+      
+    </ul>
+  </div>
   
 
-  
 
+
+  </div>
 </div>
 
       
