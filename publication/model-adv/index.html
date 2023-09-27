@@ -1,82 +1,194 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: September 27, 2023 --><html lang="en-us" >
+
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.8.0">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
   
 
   
   
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
   
   
   
     
     
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
     
-  
-  
 
-  <meta name="author" content="Nirbhay Modhe">
-
-  
-  
-  
     
-  
-  <meta name="description" content="Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL.">
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/publication/model-adv/">
-
-  
-
-
-  
-  
-  
-  <meta name="theme-color" content="#2962ff">
-  
-
-  
-  
-  
-  <script src="/js/mathjax-config.js"></script>
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
-
     
     
     
       
+      
     
     
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
+      
+
       
     
-
-    
-
-    
-
-    
-    
+      
       
 
       
@@ -85,12 +197,6 @@
       
     
       
-
-      
-      
-
-      
-    
       
 
       
@@ -98,116 +204,42 @@
 
       
     
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-
-      
-      
-
-      
-    
-
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
   
 
 
 
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88127819-1"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KV4DCG8NZV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 
@@ -237,53 +269,106 @@
   }
 
   gtag('js', new Date());
-  gtag('config', 'UA-88127819-1', {});
+  gtag('config', 'G-KV4DCG8NZV', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
 
   
   document.addEventListener('click', onClickCallback, false);
 </script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
   
 
 
-  
-  
+
+
+
+
+  <meta name="author" content="Nirbhay Modhe" />
+
+
+
+
 
   
 
-  <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+<meta name="description" content=" " />
 
-  <link rel="canonical" href="https://nirbhayjm.github.io/publication/model-adv/">
+
+
+<link rel="alternate" hreflang="en-us" href="https://nirbhayjm.github.io/publication/model-adv/" />
+<link rel="canonical" href="https://nirbhayjm.github.io/publication/model-adv/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
 
   
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://nirbhayjm.github.io/publication/model-adv/featured.png" />
+<meta property="og:site_name" content="Nirbhay Modhe" />
+<meta property="og:url" content="https://nirbhayjm.github.io/publication/model-adv/" />
+<meta property="og:title" content="Bridging Worlds in Reinforcement Learning with Model-Advantage | Nirbhay Modhe" />
+<meta property="og:description" content=" " /><meta property="og:image" content="https://nirbhayjm.github.io/publication/model-adv/featured.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2020-06-25T17:31:13-04:00"
+    />
   
   
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="og:site_name" content="Nirbhay Modhe">
-  <meta property="og:url" content="https://nirbhayjm.github.io/publication/model-adv/">
-  <meta property="og:title" content="Bridging Worlds in Reinforcement Learning with Model-Advantage | Nirbhay Modhe">
-  <meta property="og:description" content="Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL."><meta property="og:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
-  
-    
-      <meta property="article:published_time" content="2020-06-25T17:31:13-04:00">
-    
     <meta property="article:modified_time" content="2020-06-25T17:31:13-04:00">
   
 
-  
+
+
+
 
 
     
@@ -306,12 +391,16 @@
   },
   "headline": "Bridging Worlds in Reinforcement Learning with Model-Advantage",
   
+  "image": [
+    "https://nirbhayjm.github.io/publication/model-adv/featured.png"
+  ],
+  
   "datePublished": "2020-06-25T17:31:13-04:00",
   "dateModified": "2020-06-25T17:31:13-04:00",
   
   "author": {
     "@type": "Person",
-    "name": "**Nirbhay Modhe**\u0026ast;"
+    "name": "Nirbhay Modhe"
   },
   
   "publisher": {
@@ -319,10 +408,10 @@
     "name": "Nirbhay Modhe",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://nirbhayjm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Despite the breakthroughs achieved by Reinforcement Learning (RL) in recent years, RL agents often fail to perform well in unseen environments. This inability to generalize to new environments prevents their deployment in the real world. To help measure this gap in performance, we introduce model-advantage - a quantity similar to the well-known (policy) advantage function. First, we show relationships between the proposed model-advantage and generalization in RL — using which we provide guarantees on the gap in performance of an agent in new environments. Further, we conduct toy experiments to show that even a sub-optimal policy (learnt with minimal interactions with the target environment) can help predict if a training environment (say, a simulator) helps learn policies that generalize. We then show connections with Model Based RL."
+  "description": " "
 }
 </script>
 
@@ -331,22 +420,56 @@
   
 
 
+
+
+  
+  
+  
+
+  
+  
+
   
 
 
   
-
-
-
-
-
   <title>Bridging Worlds in Reinforcement Learning with Model-Advantage | Nirbhay Modhe</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
-  <aside class="search-results" id="search">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2733cff9e5b6e9c5bb66354625505679" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
 
@@ -355,15 +478,22 @@
           <h1>Search</h1>
         </div>
         <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
         
       </div>
+
+      
+      
+
+      
 
     </section>
     <section class="section-search-results">
@@ -377,6 +507,12 @@
 </aside>
 
 
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
   
 
 
@@ -385,244 +521,330 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
 
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Nirbhay Modhe</a>
-    </div>
-    
 
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
 
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Nirbhay Modhe</a>
-    </div>
-    
 
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
 
       
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#news"><span>News</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications"><span>Recent Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Nirbhay Modhe</a>
+      </div>
       
 
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Nirbhay Modhe</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
         
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#news"><span>News</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Recent Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
       </ul>
+
     </div>
+  </nav>
+</header>
 
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-palette" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
-
-      
-
-    </ul>
 
   </div>
-</nav>
+
+  <div class="page-body">
+    
+    
+    
+
+    
 
 
-  <div class="pub">
 
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 
 
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
 <div class="article-container pt-3">
   <h1>Bridging Worlds in Reinforcement Learning with Model-Advantage</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
@@ -634,8 +856,11 @@
   <div>
     
 
-  
-  <span><strong>Nirbhay Modhe</strong>*</span>, <span><a href="http://hkamath.com/">Harish Kamath*</a></span>, <span><a href="https://www.cc.gatech.edu/~dbatra/index.html">Dhruv Batra</a></span>, <span><a href="http://ashwinkalyan.com/">Ashwin Kalyan</a></span>
+  <span class="author-highlighted">
+      Nirbhay Modhe</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Harish Kamath</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Dhruv Batra</span>, <span >
+      Ashwin Kalyan</span>
   </div>
   
   
@@ -646,7 +871,7 @@
     
       
     
-    June 2020
+    June, 2020
   </span>
   
 
@@ -657,25 +882,15 @@
   
   
   
+  
 
   
   
 
 </div>
 
-    
-
-
-
-
-
-
-
-
-
-
-
   
+
 
 
 
@@ -696,8 +911,15 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=XBRYX4c_xFQ" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://openreview.net/pdf?id=XBRYX4c_xFQ" target="_blank" rel="noopener">
   PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/model-adv/cite.bib">
+  Cite
 </a>
 
 
@@ -714,17 +936,17 @@
 
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/model-adv/cite.bib">
-  BibTex
-</button>
+</div>
 
 
 </div>
 
 
-  
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 408px;">
+  <div style="position: relative">
+    <img src="/publication/model-adv/featured_hub168e48e922dc49cf63a65d74ae98a62_292418_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="408" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -737,7 +959,36 @@
     
 
     
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>4th Lifelong Machine Learning Workshop at ICML 2020</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -752,19 +1003,13 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/reinforcement-learning/">reinforcement learning</a>
-  
-  <a class="badge badge-light" href="/tag/model-based-rl/">model based RL</a>
-  
-  <a class="badge badge-light" href="/tag/value-equivalence/">value equivalence</a>
-  
-  <a class="badge badge-light" href="/tag/value-aware-model-learning/">value aware model learning</a>
+  <a class="badge badge-light" href="/tag/multilabel-learning/">multilabel learning</a>
   
 </div>
 
 
 
-<div class="share-box" aria-hidden="true">
+<div class="share-box">
   <ul class="share">
     
       
@@ -774,8 +1019,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://nirbhayjm.github.io/publication/model-adv/&amp;text=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F&amp;text=Bridging&#43;Worlds&#43;in&#43;Reinforcement&#43;Learning&#43;with&#43;Model-Advantage" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -787,8 +1036,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://nirbhayjm.github.io/publication/model-adv/&amp;t=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F&amp;t=Bridging&#43;Worlds&#43;in&#43;Reinforcement&#43;Learning&#43;with&#43;Model-Advantage" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -800,8 +1053,14 @@
       
       
       
+      
+      
+      
+      
+        
+      
       <li>
-        <a href="mailto:?subject=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage&amp;body=https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage&amp;body=https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -813,8 +1072,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F&amp;title=Bridging&#43;Worlds&#43;in&#43;Reinforcement&#43;Learning&#43;with&#43;Model-Advantage" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -826,8 +1089,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://web.whatsapp.com/send?text=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage%20https://nirbhayjm.github.io/publication/model-adv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Bridging&#43;Worlds&#43;in&#43;Reinforcement&#43;Learning&#43;with&#43;Model-Advantage%20https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -839,8 +1106,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://nirbhayjm.github.io/publication/model-adv/&amp;title=Bridging%20Worlds%20in%20Reinforcement%20Learning%20with%20Model-Advantage" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fnirbhayjm.github.io%2Fpublication%2Fmodel-adv%2F&amp;title=Bridging&#43;Worlds&#43;in&#43;Reinforcement&#43;Learning&#43;with&#43;Model-Advantage" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -858,142 +1129,170 @@
 
 
 
-
+  
   
     
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-
-  
-    
-    
-
-
-
-
-
-
-  
-    
-    
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
 
 
 
   
   
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
       
-      <li><a href="/publication/ir-vic/">IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</a></li>
+      <a href="https://nirbhayjm.github.io/"><img class="avatar mr-3 avatar-square" src="/authors/admin/avatar_hu2222b350ad6525f647408856aceaa43e_61388_270x270_fill_q75_lanczos_center.jpg" alt="Nirbhay Modhe"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://nirbhayjm.github.io/">Nirbhay Modhe</a></h5>
+      <h6 class="card-subtitle">Post-Doctoral Fellow</h6>
       
-    </ul>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=g9MVi-EAAAAJ&amp;hl" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/nirbhayjm" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/nirbhaymodhe/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/Nirbhay_Modhe_Resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
   </div>
+
+
   
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
   </div>
 </div>
+  </div>
 
-      
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
 
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  
 
-      
 
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
-        
-      
 
-    
 
-    
-    
 
-    
-    
-    <script>const code_highlighting = true;</script>
-    
 
-    
-    
-    <script>const isSiteThemeDark = false;</script>
-    
-
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="/js/academic.min.6f7ce8be710290b8c431bbc97f405d15.js"></script>
-
-    
 
 
 
@@ -1002,31 +1301,181 @@
 
   
   
-  <div class="container">
-    <footer class="site-footer">
   
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Nirbhay Modhe. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
 
   <p class="powered-by">
     
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
     
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
 </footer>
 
+    </div>
+    
   </div>
+
   
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.3322c0d94f0e691b0b24c63f4c41064b.js"></script>
+
+
+
+
+
+
 
   
 <div id="modal" class="modal fade" role="dialog">
@@ -1039,7 +1488,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
+        
+        <pre><code></code></pre>
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
@@ -1053,6 +1503,26 @@
     </div>
   </div>
 </div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

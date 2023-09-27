@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Nirbhay Modhe</title>
+    <link>https://nirbhayjm.github.io/publication-type/3/</link>
+      <atom:link href="https://nirbhayjm.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 25 Sep 2022 17:31:13 -0400</lastBuildDate>
+    <image>
+      <url>https://nirbhayjm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>3</title>
+      <link>https://nirbhayjm.github.io/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations</title>
+      <link>https://nirbhayjm.github.io/publication/vaoffrl/</link>
+      <pubDate>Sun, 25 Sep 2022 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/vaoffrl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model-Advantage and Value-Aware Models for Model-Based Reinforcement Learning: Bridging the Gap in Theory and Practice</title>
+      <link>https://nirbhayjm.github.io/publication/mambrl/</link>
+      <pubDate>Tue, 24 Aug 2021 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/mambrl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

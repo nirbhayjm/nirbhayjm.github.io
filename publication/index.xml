@@ -5,12 +5,20 @@
     <link>https://nirbhayjm.github.io/publication/</link>
       <atom:link href="https://nirbhayjm.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Sep 2022 17:31:13 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 17:31:13 -0400</lastBuildDate>
     <image>
-      <url>https://nirbhayjm.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://nirbhayjm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://nirbhayjm.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Time-Aware Deep Sequential Models for In-Hospital Code Blue Prediction using Monitor Alarms</title>
+      <link>https://nirbhayjm.github.io/publication/alarm-time-lstm/</link>
+      <pubDate>Thu, 01 Jun 2023 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/alarm-time-lstm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Exploiting Generalization in Offline Reinforcement Learning via Unseen State Augmentations</title>

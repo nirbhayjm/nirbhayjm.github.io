@@ -1,1 +1,3 @@
 User-agent: *
+
+Sitemap: https://nirbhayjm.github.io/sitemap.xml

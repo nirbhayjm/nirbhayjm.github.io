@@ -1,172 +1,164 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://nirbhayjm.github.io/author/nirbhay-modhe/</loc>
+    <loc>https://nirbhayjm.github.io/talk/example-talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/teaching/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/event/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/teaching/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication-type/1/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/multilabel-learning/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication_types/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tags/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/alarm-time-lstm/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication-type/3/</loc>
     <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/authors/</loc>
-    <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/publication/vaoffrl/</loc>
     <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/</loc>
-    <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/nirbhay-modhe/</loc>
-    <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/offline-model-based-rl/</loc>
     <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/offline-rl/</loc>
     <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/publication/</loc>
-    <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/reinforcement-learning/</loc>
     <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/tags/</loc>
-    <lastmod>2022-09-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/model-based-rl/</loc>
-    <lastmod>2022-01-28T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/publication/mambrl/</loc>
-    <lastmod>2022-01-28T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/value-aware-model-learning/</loc>
-    <lastmod>2022-01-28T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/tag/value-equivalence/</loc>
-    <lastmod>2022-01-28T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/nirbhay-modheast/</loc>
-    <lastmod>2020-06-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-08-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/publication/model-adv/</loc>
     <lastmod>2020-06-25T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/publication/ir-vic/</loc>
     <lastmod>2020-04-24T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/tag/multilabel-learning/</loc>
-    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
-  </url>
-  
-  <url>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/post/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://nirbhayjm.github.io/publication/gen-eml/</loc>
-    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+    <lastmod>2017-04-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/deep-learning/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/demo/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/project/example/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/project/external-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/admin/</loc>
+    <changefreq>weekly</changefreq>
   </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/abhishek-dashttps/abhishekdas.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/ashwin-kalyanhttp/ashwinkalyan.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/devi-parikhhttps/www.cc.gatech.edu/~parikh/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/dhruv-batrahttps/www.cc.gatech.edu/~dbatra/index.html/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/gaurav-sukhatmehttps/viterbi.usc.edu/directory/faculty/sukhatme/gaurav/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/govind-thattaihttps/scholar.google.com/citationsuserziagafyaaaajhlen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/harish-kamathasthttp/hkamath.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/harish-kamathhttp/hkamath.com/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/mohit-sharmahttps/ms-sharma.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/piyush-raihttp/www.cse.iitk.ac.in/users/piyush/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/prithvijit-chattopadhyayhttps/prithv1.xyz/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/qiaozi-gaohttps/scholar.google.com/citationsuserub3llsgaaaajhlen/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/ramakrishna-vedantamhttps/vrama91.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/author/vikas-jainasthttps/github.com/vikasjiitk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nirbhayjm.github.io/talk/</loc>
-  </url>
-  
 </urlset>
