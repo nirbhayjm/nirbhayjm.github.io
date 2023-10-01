@@ -13,26 +13,18 @@
     </image>
     
     <item>
-      <title>Time-Aware Deep Sequential Models for In-Hospital Code Blue Prediction using Monitor Alarms</title>
-      <link>https://nirbhayjm.github.io/publication/alarm-time-lstm/</link>
+      <title>Characterizing trending features in time-series prediction of clinical event onset</title>
+      <link>https://nirbhayjm.github.io/publication/ranxiao_bhi2023/</link>
       <pubDate>Thu, 01 Jun 2023 17:31:13 -0400</pubDate>
-      <guid>https://nirbhayjm.github.io/publication/alarm-time-lstm/</guid>
+      <guid>https://nirbhayjm.github.io/publication/ranxiao_bhi2023/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bridging Worlds in Reinforcement Learning with Model-Advantage</title>
-      <link>https://nirbhayjm.github.io/publication/model-adv/</link>
-      <pubDate>Thu, 25 Jun 2020 17:31:13 -0400</pubDate>
-      <guid>https://nirbhayjm.github.io/publication/model-adv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</title>
-      <link>https://nirbhayjm.github.io/publication/ir-vic/</link>
-      <pubDate>Fri, 24 Apr 2020 17:31:13 -0400</pubDate>
-      <guid>https://nirbhayjm.github.io/publication/ir-vic/</guid>
+      <title>Scalable Generative Models for Multi-label Learning with Missing Labels</title>
+      <link>https://nirbhayjm.github.io/publication/gen-eml/</link>
+      <pubDate>Mon, 24 Apr 2017 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/gen-eml/</guid>
       <description></description>
     </item>
     

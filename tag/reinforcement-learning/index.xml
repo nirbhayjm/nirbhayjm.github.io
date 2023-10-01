@@ -29,10 +29,18 @@
     </item>
     
     <item>
-      <title>Scalable Generative Models for Multi-label Learning with Missing Labels</title>
-      <link>https://nirbhayjm.github.io/publication/gen-eml/</link>
-      <pubDate>Mon, 24 Apr 2017 17:31:13 -0400</pubDate>
-      <guid>https://nirbhayjm.github.io/publication/gen-eml/</guid>
+      <title>Bridging Worlds in Reinforcement Learning with Model-Advantage</title>
+      <link>https://nirbhayjm.github.io/publication/model-adv/</link>
+      <pubDate>Thu, 25 Jun 2020 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/model-adv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</title>
+      <link>https://nirbhayjm.github.io/publication/ir-vic/</link>
+      <pubDate>Fri, 24 Apr 2020 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/ir-vic/</guid>
       <description></description>
     </item>
     

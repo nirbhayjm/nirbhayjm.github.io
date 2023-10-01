@@ -19,26 +19,46 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://nirbhayjm.github.io/publication-type/1/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/lstm/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/monitor-alarms/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication_types/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tags/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/time-series/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/alarm-time-lstm/</loc>
+    <lastmod>2023-06-02T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/ranxiao_cinc2023/</loc>
+    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/publication/ranxiao_bhi2023/</loc>
     <lastmod>2023-06-01T17:31:13-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://nirbhayjm.github.io/tag/multilabel-learning/</loc>
-    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://nirbhayjm.github.io/publication_types/</loc>
-    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://nirbhayjm.github.io/publication/</loc>
-    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://nirbhayjm.github.io/tags/</loc>
-    <lastmod>2023-06-01T17:31:13-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://nirbhayjm.github.io/publication/alarm-time-lstm/</loc>
     <lastmod>2023-06-01T17:31:13-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -112,6 +132,18 @@
   </url><url>
     <loc>https://nirbhayjm.github.io/publication/model-adv/</loc>
     <lastmod>2020-06-25T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/model-advantage/</loc>
+    <lastmod>2020-06-25T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/exploration/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://nirbhayjm.github.io/tag/information-bottleneck/</loc>
+    <lastmod>2020-04-24T17:31:13-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://nirbhayjm.github.io/publication/ir-vic/</loc>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>information bottleneck | Nirbhay Modhe</title>
+    <link>https://nirbhayjm.github.io/tag/information-bottleneck/</link>
+      <atom:link href="https://nirbhayjm.github.io/tag/information-bottleneck/index.xml" rel="self" type="application/rss+xml" />
+    <description>information bottleneck</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Apr 2020 17:31:13 -0400</lastBuildDate>
+    <image>
+      <url>https://nirbhayjm.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>information bottleneck</title>
+      <link>https://nirbhayjm.github.io/tag/information-bottleneck/</link>
+    </image>
+    
+    <item>
+      <title>IR-VIC: Unsupervised Discovery of Sub-goals for Transfer in RL</title>
+      <link>https://nirbhayjm.github.io/publication/ir-vic/</link>
+      <pubDate>Fri, 24 Apr 2020 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/ir-vic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

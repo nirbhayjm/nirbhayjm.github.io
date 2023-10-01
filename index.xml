@@ -43,8 +43,24 @@
     <item>
       <title>Time-Aware Deep Sequential Models for In-Hospital Code Blue Prediction using Monitor Alarms</title>
       <link>https://nirbhayjm.github.io/publication/alarm-time-lstm/</link>
-      <pubDate>Thu, 01 Jun 2023 17:31:13 -0400</pubDate>
+      <pubDate>Fri, 02 Jun 2023 17:31:13 -0400</pubDate>
       <guid>https://nirbhayjm.github.io/publication/alarm-time-lstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the Generalizability of Pre-trained Predictive Models for Hemorrhage, Emergent Intubation, and Sepsis to Predict In-hospital Cardiac Arrest</title>
+      <link>https://nirbhayjm.github.io/publication/ranxiao_cinc2023/</link>
+      <pubDate>Thu, 01 Jun 2023 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/ranxiao_cinc2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Characterizing trending features in time-series prediction of clinical event onset</title>
+      <link>https://nirbhayjm.github.io/publication/ranxiao_bhi2023/</link>
+      <pubDate>Thu, 01 Jun 2023 17:31:13 -0400</pubDate>
+      <guid>https://nirbhayjm.github.io/publication/ranxiao_bhi2023/</guid>
       <description></description>
     </item>
     
@@ -264,7 +280,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-328475196&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-783142695&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -274,7 +290,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-328475196&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-783142695&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
